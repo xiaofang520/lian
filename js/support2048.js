@@ -1,16 +1,20 @@
 /**
  * Created by Administrator on 2015/6/2.
  */
-documentWidth=window.screen.availHeight;
+documentWidth=window.screen.availWidth;
+if(documentWidth>=500){
+    documentWidth=500;
+}
 gridContainerWidth=0.92*documentWidth;
 cellSideLength=0.18*documentWidth;
-cellSpace=0.04*documentWidthWidth;
+cellSpace=0.04*documentWidth;
+console.log(documentWidth);
 function getPostTop(i, j) {
-    return 20 + i * 120;
+    return cellSpace + i * (cellSpace+cellSideLength);
 
 }
 function getPostLeft(i, j) {
-    return 20 + j * 120;
+    return cellSpace + j * (cellSpace+cellSideLength);
 }
 
 function getNumberBackgroundColor(number) {

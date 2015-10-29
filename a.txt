@@ -1,9 +1,3 @@
 
-<<<<<<< HEAD
 1.hello world!
 2. xiaofang
-=======
-hello world!
- xiaofang
->>>>>>> 52f0d4059823410cdba40a11f637eca9787d5908
-moon edit
